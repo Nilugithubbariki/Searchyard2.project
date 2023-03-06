@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    background: rgb(78, 70, 201);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 0px 10px 2px rgba(0,0,0,.2);
+    /* padding: 0 15px; */
+
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+        padding: 0 15px;
+
+        &:hover {
+            transition: color ease;
+            color: rgb(145, 139, 223);
+        }
+    }
+}

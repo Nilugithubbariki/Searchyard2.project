@@ -1,0 +1,82 @@
+.product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .top {
+        display: flex;
+
+        .deals {
+            width: 100%;
+
+            .dealText {
+                font-weight: 700;
+                font-size: 1rem;
+                letter-spacing: 0.8px;
+            }
+        }
+
+        .heading {
+            width: 100%;
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-decoration: 3px underline rgb(78, 70, 201);
+            text-underline-offset: 4px;
+            letter-spacing: 1px;
+        }
+    }
+
+    .cards {
+        margin: 20px 0 0 0;
+
+        .mainContainer {
+            display: flex;
+            flex-direction: column;
+            max-width: 19.875em;
+            height: 17rem;
+            padding: 10px;
+            justify-content: space-between;
+            border-radius: 3px;
+            text-decoration: none;
+            box-shadow: 0px 0px 13px 0px rgb(236 236 241 / 44%);
+            border: 1px solid #d3d3d3;
+            .image {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 10rem;
+                    height: 10rem;
+                    object-fit: contain;
+                    border-radius: 2px;
+                }
+            }
+
+            .title {
+                .offer {
+                    margin-bottom: 10px;
+                    .upto {
+                        background: red;
+                        padding: 4px;
+                        margin-right: 5px;
+                        color: white;
+                        font-weight: 500;
+                        border-radius: 3px;
+                    }
+                    .best {
+                        font-weight: 500;
+                        color: red;
+                    }
+                }
+
+                .text {
+                    color: black;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}

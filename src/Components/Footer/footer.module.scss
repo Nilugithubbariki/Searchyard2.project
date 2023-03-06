@@ -1,0 +1,81 @@
+.footerContainer{
+    background:rgb(78, 70, 201);
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    .footer {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .mainContainer {
+        margin: 40px 0 !important;
+        width: 100%;
+        display: flex;
+        .about {
+            width: 100%;
+            padding: 15px;
+            .aboutText {
+                font-size: 1.5rem;
+                color: white;
+                display: flex;
+                margin-bottom: 20px;
+            }
+        }
+        .contact {
+            width: 100%;
+            padding: 15px;
+            .contactText {
+                font-size: 1.5rem;
+                color: white;
+                display: flex;
+                margin-bottom: 20px;
+            }
+        }
+        .gallery {
+            width: 100%;
+            padding: 15px;
+            .galleryText {
+                font-size: 1.5rem;
+                color: white;
+                display: flex;
+                margin-bottom: 20px;
+            }
+            .image {
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+
+                img {
+                    width: 20rem;
+                    height: 20rem;
+                    object-fit: cover;
+                    border: 5px solid white;
+                    border-radius: 10px;
+                }
+            }
+        }
+        .subscribe {
+            width: 100%;
+            padding: 15px;
+            .subscribeText {
+                font-size: 1.5rem;
+                color: white;
+                display: flex;
+                margin-bottom: 20px;
+            }
+
+            .subscribeInput {
+                max-width: 80%;
+                input {
+                    margin-bottom: 15px;
+                }
+
+                button {
+                    float: right;
+                }
+            }
+        }
+    }
+}}
